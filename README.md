@@ -1,2 +1,2 @@
 # SimpleShellScripts
-Automate Simple Task Using Bash
+Automate Simple Task Using Bash language
