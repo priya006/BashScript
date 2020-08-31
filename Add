@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Add two numbers 
+((sum=1+10))
+
+# print the result
+echo $sum
