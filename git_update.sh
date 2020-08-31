@@ -12,7 +12,7 @@ BASE=$(git merge-base @ "$UPSTREAM")
 if [ $LOCAL = $REMOTE ]; then
     echo -e ${NOERROR}Up-to-date
 elif [ $LOCAL = $BASE ]; then
-    echo "Need to pull"
+    echo "Need to pull updating"
 elif [ $REMOTE = $BASE ]; then
     echo "Need to push"
 else
