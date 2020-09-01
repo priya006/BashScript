@@ -8,6 +8,3 @@ From Terminal type `bash git_update.sh`
 # How to run script and pass command line arguments?
 bash cli.sh john 25 'John Smith'
 
-
-
-test
