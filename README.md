@@ -11,4 +11,8 @@ bash cli.sh john 25 'John Smith'
 # How to git pull from git hub?
 Execute the bash script `bash git_pull.sh`
 
+# How to run cleanup mac script?
+Execute the command `bash speedup_mac.sh` from terminal
+
+
 
