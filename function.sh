@@ -1,8 +1,8 @@
 #!/bin/bash
-function F1()
+function functionName()
 {
 echo "I love bash programming"
-
+echo "$1"
 
 }
-F1
+functionName Hi
