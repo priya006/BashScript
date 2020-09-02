@@ -14,5 +14,7 @@ Execute the bash script `bash git_pull.sh`
 # How to run cleanup mac script?
 Execute the command `bash speedup_mac.sh` from terminal
 
+# How to search a string in a file?
+Execute the script `bash grep_search.sh`. Make sure the file to be search exist.
 
 
