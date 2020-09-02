@@ -3,6 +3,11 @@
 
 # Source: https://www.chriswrites.com/5-ways-to-speed-up-your-mac-just-using-terminal/ 
 
+# Restart Finder
+`killall Finder`
+
+
+
 # completely disable Dashboard widgets
 `defaults write com.apple.dashboard mcx-disabled -boolean YES`
 
@@ -22,4 +27,13 @@
 # Speed Up Dialog Boxes
 `defaults write NSGlobalDomain NSWindowResizeTime x.y`
 `defaults delete NSGlobalDomain NSWindowResizeTime`
+
+
+# dumping the Apple System Logs 
+`sudo -u pboopathi mv /private/var/log/asl/*.asl ~/.Trash`
+
+# Disable Auto-Restore In Preview And QuickTime
+`defaults write com.apple.Preview NSQuitAlwaysKeepsWindows -bool FALSE`
+
+
 
