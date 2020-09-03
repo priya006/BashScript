@@ -11,3 +11,6 @@
  else
  echo "Enter a file which exists"
  fi
+ echo "----New command-----"
+ cat forloop.sh| head -n 2 | awk  '/count/{print $1}' forloop.sh
+
