@@ -1,7 +1,7 @@
 # BashScripts
 Automate Simple Task Using Bash language
 
-## How to Debug Bash Script
+## How to Debug Bash Script??
 **Method 1:** Add `set -x` where you want the debugger to start and add `set +x` where you want to stop. And now execute the script as `bash scriptname`
 
 **Method 2:** Execute the script as `bash -x scriptname`
