@@ -3,6 +3,19 @@
 
 # Source: https://www.chriswrites.com/5-ways-to-speed-up-your-mac-just-using-terminal/ 
 
+
+ echo "enter the Ldap  password, please"
+ read -s  PW
+  
+ PW=$1
+ # dumping the Apple System Logs
+ echo $PW | mv /private/var/log/asl/*.asl ~/.Trash
+
+ # To remove the font cache for the active user only, use this command instead:
+ echo $PW | atsutil databases -remove
+
+
+
 # Restart Finder
 `killall Finder`
 
@@ -13,7 +26,7 @@
 
 
 # To remove the font cache for the active user only, use this command instead:
-`sudo -u pboopathi atsutil databases -remove`
+# `sudo -u pboopathi atsutil databases -remove`
 
 
 #  Use the 2D Dock
@@ -30,7 +43,7 @@
 
 
 # dumping the Apple System Logs 
-`sudo -u pboopathi mv /private/var/log/asl/*.asl ~/.Trash`
+#`sudo -u pboopathi mv /private/var/log/asl/*.asl ~/.Trash`
 
 # Disable Auto-Restore In Preview And QuickTime
 `defaults write com.apple.Preview NSQuitAlwaysKeepsWindows -bool FALSE`
