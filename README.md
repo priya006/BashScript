@@ -1,4 +1,4 @@
-# SimpleShellScripts
+# BashScripts
 Automate Simple Task Using Bash language
 
 
