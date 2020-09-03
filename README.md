@@ -17,4 +17,7 @@ Execute the command `bash speedup_mac.sh` from terminal
 # How to search a string in a file?
 Execute the script `bash grep_search.sh`. Make sure the file to be search exist.
 
+# How to search for a String in current Directory?
+Run Bash Script with the command `bash recursive_grep_search.sh bin` Change the argument ($1) as you like
+
 
